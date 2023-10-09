@@ -1,0 +1,168 @@
+body{
+  background-color: rgb(230,0,220);
+  background-image: url("img/corazones.jpg");
+  background-position: center;
+}
+#lbt{
+  display: block;
+  color: white;
+  font-family: Times New Roman;
+  font-size: 120%;
+  background-color: rgb(230,100,220,.70);
+  width: 100%;
+}
+.div1{
+  margin-top: 5%;
+  border: 1px solid white;
+  background-color: rgb(230,100,220,.80);
+  border-radius: 5%;
+  width: 98%;
+  height: 90%;
+  margin-left: 1%;
+}
+p{
+  margin-top: 5%;
+  font-family: Times New Roman;
+  color: white
+}
+#lb3{
+  margin-top: 5%;
+  display: block;
+  color: white;
+  font-family: Times New Roman;
+  float:left;
+  width: 98%;
+}
+.lbs{
+  font-family: Times New Roman;
+  color: white;
+  margin-top: 5%;
+  float: left;
+  margin-left: 5%;
+  text-align: left;
+  display: block;
+  width: 40%;
+}
+#txt1,#txt2{
+  font-family: Times New Roman;
+  color: white;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  float:right;
+  margin-right: 5%;
+  margin-top: 5%;
+  width: 40%;
+  background-color: rgb(230,0,220);
+  font-size: 12pt;
+}
+#txt1::placeholder{
+  color: rgb(255,200,200);
+  font-size: 10pt;
+}
+#txt2::placeholder{
+  color: rgb(255,200,200);
+  font-size: 10pt;
+}
+#lb2{
+  width: 45%;
+}
+#bt1{
+  font-family: Times New Roman;
+  color: white;
+  margin-top: 5%;
+  width: 50%;
+  float:left;
+  margin-left: 26%;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  background-color: rgb(230,0,220);
+}
+#div3{
+  border: 1px solid white;
+  width: 80%;
+  height: 40%;
+  margin-top: 53%;
+  background-color: rgb(255,100,220);
+}
+/*vista ordenador*/
+@media (min-width: 500px){
+ #lbt{
+   display: block;
+   color: white;
+   font-family: Times New Roman;
+   font-size: 120%;
+   background-color: rgb(230,100,220,.70);
+   width: 98%;
+   margin-left: 1%;
+  }
+  .div1{
+    margin: 1%;
+    border: 2% solid white;
+    background-color: rgb(230,100,220,.80);
+    border-radius: 5%;
+    width: 196%;
+    height: 48%;
+  }
+  .lbs{
+    border: 1px solid white;
+    font-family: Times New Roman;
+    color: white;
+    margin-top: 1%;
+    float: left;
+    margin-left: 5%;
+    text-align: left;
+    font-size: 30pt;
+    display: block;
+    width: 40%;
+    height: 4%;
+  }
+  #txt1,#txt2{
+  font-family: Times New Roman;
+  color: white;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  float:right;
+  margin-right: 5%;
+  margin-top: 1%;
+  width: 30%;
+  height: 4%;
+  background-color: rgb(230,0,220);
+  font-size: 12pt;
+}
+#txt1::placeholder{
+  color: white;
+}
+#txt2::placeholder{
+  color: white;
+}
+  .divx{
+    display: block;
+    border: 1px solid white;
+    width: 48%;
+    height 98%;
+    float: left;
+    margin: 1%;
+  }
+  .divz{
+    border: 1px solid white;
+    width: 48%;
+    height 98%;
+    float: right;
+    margin-top: 1%;
+  }
+  #lb3{
+    height: 20%;
+    margin-top: 1%;
+  }
+  #div3{
+    margin-top: 4%;
+    width: 50%;
+    height: 50%;
+  }
+}
